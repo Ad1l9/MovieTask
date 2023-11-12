@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.b{
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.b{
+    transition: 0.5s;
+}
+.b:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+} 
+input{
+    outline: none;
+}
+
+.firstcontainer{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../media/mainmovies.png);
+}
+
+.hr{
+    width: 100%;
+    height: 1rem;
+    background-color: #5b595956;
+}
+
+/* ********************Navigation Bar****************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+.nav-link{
+    cursor: pointer;
+}
+.navbar-toggler-icon{
+    fill: #249C8D;
+}
+
+a{
+    height: fit-content;
+}
+.logo{
+    background-image: url(../media/sitelogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25rem;
+    height: 6rem;
+}
+.nav img{
+    width: 25rem;
+    height: 10rem;
+    background-color: rgb(0, 121, 226);
+}
+
+.searchicon{
+    cursor: pointer;
+    fill: #249C8D;
+    width: 2rem;
+}
+
+.signInButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 6rem;
+}
+
+.signinbutton{
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    background-color: #249C8D;
+    border: 3px solid #249C8D;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.signinbutton:hover{
+    background-color: transparent;
+    color: #249C8D;
+}
+
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+.cnt{
+    height: 80vh;
+    padding: 4rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutText{
+    width: 65%;
+    line-height: 4rem;
+}
+.aboutText p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.phoneimg{
+    background-image: url(../media/phoneimg.png);
+}
+.pcimg{
+    background-image: url(../media/pcimage.png);
+}
+.kidsimg{
+    background-image: url(../media/kidsimage.png);
+}
+
+.right{
+    text-align: right;
+}
+
+.aboutimg{
+    width: 35%;
+    height: 25rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+
+
+
+
+
+.maintextcontainer{
+    width: 100%;
+    color: white;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.maintextcontainer h2{
+    margin: 1rem;
+    font-weight: 200;
+    opacity: 80%;
+}
+.maintextcontainer p{
+    letter-spacing: 5px;
+    opacity: 80%;
+}
+
+.signupButton{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #249C8D;
+    color: white;
+    width: 13rem;
+    height: 4rem;
+    border-radius: 15px;
+}
+.signupButton:hover{
+    background-color: #196b62;
+}
+
+
+
+/* ***********************Sign In********************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+.formcontainer{
+    border: 1px solid white;
+    width: 32rem;
+    
+}
+
+.signInform{
+    background-color: rgba(18, 20, 20, 0.925);
+}
+
+.signUpform{
+    height: 30rem;
+    background-color: #198d7fe7;
+}
+
+form input{
+    /* width: 100%; */
+    font-size: 1.5rem;
+    outline: none;
+    height: 3.69rem;
+    margin-bottom: 2rem;
+    border: none;
+    color: white;
+}
+
+.inptxt{
+    padding-left: 10px;
+    border-radius: 0.625rem;
+    background: #252424d2;
+}
+.inptxt::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.signbtn{
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 1.25rem;
+}
+.signinbtn{
+    background: rgba(36, 156, 141, 0.80);
+}
+
+.signupbtn{
+    background: rgba(0, 0, 0, 0.819);
+}
+
+.signbtn:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.rememberMe{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    opacity: 80%;
+}
+
+.signUpform .rememberMe svg{
+    fill: #252424d2;
+}
+.signInform .rememberMe svg{
+    fill: #196b62;
+}
+
+.rememberMe svg:nth-child(2){
+    display: none;
+}
+
+
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+
+
+
+
+.rating{
+    display: none;
+    height: 100%;
+    transition: 1s;
+}
+.rating:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.9) );
+}
+
+.rating svg,.rating span{
+    display: none;
+    fill: #e6b000;
+    color: #e6b000;
+    transition: 0.5s;
+}
+
+.rating:hover svg,.rating:hover span{
+    display: block;
+}
+
+
+
+
+
+
+/* ***************************Footer******************************* */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+.links{
+    display: flex;
+    justify-content: center;
+    line-height: 2.2rem;
+    height: 20rem;
+    font-size: 1.2rem;
+    width: 50%;
+}
+.textlink{
+    flex-direction: column;
+}
+
+.iconlink{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconlink svg{
+    width: 4rem;
+    height: 4rem;
+    fill: white;
+}
+.iconlink a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.links a{
+    color: white;
+    width: fit-content;
+}
+.footer{
+    height: 20rem;
+}
+
+.page-link{
+    cursor: pointer;
+    background-color: #249C8D;
+    color: white;
+}
+.page-link:hover{
+    background-color: black;
+    color: white;
+}
+
+.prev{
+    border-radius: 10px 0 0 10px;
+}
+
+.next{
+    border-radius: 0 10px 10px 0;
+}
+.active-page-link{
+    background-color: inherit;
+}
+
+
+
+
+
+
+/* ************************************** */
+/* ****************Detail**************** */
+/* ************************************** */
+
+.filmimg{
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.infotable,th,td{
+    padding: 1rem;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.maincolor{
+    fill: #249C8D;
+    color: #249C8D;
+}
